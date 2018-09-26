@@ -22,8 +22,8 @@ public class ScoreManager : MonoBehaviour {
 		ScoreText.text = " " + Score;
 	}
 
-	public static void AddPoints (int PuintsTotal){
-		Score +- 
+	public static void AddPoints (int PointstoAdd){
+		Score +- PointsToAdd;
 	}
 
 	// Use this for initialization
