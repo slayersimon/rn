@@ -22,17 +22,11 @@ public class ScoreManager : MonoBehaviour {
 		ScoreText.text = " " + Score;
 	}
 
-	public static void AddPoints (int PointstoAdd){
-		Score +- PointsToAdd;
+	public static void AddPoints (int PointsToAdd){
+		Score += PointsToAdd;
 	}
 
-	// Use this for initialization
-	void Start () {
-		
+	//public static void reset () {
+	// Score=0
+	// }
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-}
