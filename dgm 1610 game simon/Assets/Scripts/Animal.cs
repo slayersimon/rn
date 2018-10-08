@@ -2,14 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour {
+public class Animal : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
 		
 	}
-	// player movement variables 
-	
 	
 	// Update is called once per frame
 	void Update () {

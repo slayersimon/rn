@@ -2,17 +2,25 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour {
+public class Calculator : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
 		
 	}
-	// player movement variables 
-	
 	
 	// Update is called once per frame
 	void Update () {
 		
+	}
+
+	//variables
+	int number1;
+	int number2;
+
+	void start(){
+		number1 = 5;
+		number2 = 5;
+		Debug.Log (number1 + number2);
 	}
 }

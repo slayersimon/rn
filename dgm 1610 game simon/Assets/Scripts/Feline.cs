@@ -2,14 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour {
+public class Feline : Animal {
+
+	public bool Meow;
+	public bool Claws;
+	public bool Maine;
+	public bool Stripes;
+	public Color CoatColor;
+
 
 	// Use this for initialization
 	void Start () {
 		
 	}
-	// player movement variables 
-	
 	
 	// Update is called once per frame
 	void Update () {
