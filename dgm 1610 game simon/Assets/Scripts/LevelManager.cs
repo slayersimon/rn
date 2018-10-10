@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Levelmanager : MonoBehaviour {
+public class LevelManager : MonoBehaviour {
 
 	public GameObject CurrentCheckPoint;
 	public Rigidbody2D Player;

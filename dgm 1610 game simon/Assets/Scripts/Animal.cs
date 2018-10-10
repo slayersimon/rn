@@ -4,13 +4,7 @@ using UnityEngine;
 
 public class Animal : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+	public float Health = 15;
+
+
 }
