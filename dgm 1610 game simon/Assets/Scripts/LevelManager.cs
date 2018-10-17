@@ -8,7 +8,7 @@ public class LevelManager : MonoBehaviour {
 	public Rigidbody2D Player;
 
 	//particles 
-	public GameObject Deathparticle;
+	public GameObject DeathParticle;
 	public GameObject RespawnParticle;
 
 	//Respawn delay
@@ -31,7 +31,7 @@ public class LevelManager : MonoBehaviour {
 
 	public IEnumerator RespawnPlayerCo(){
 		//generate death particle
-		Instantiate (Deathparticle, Player.transform.position, Player.transform.rotation);
+		Instantiate (DeathParticle, Player.transform.position, Player.transform.rotation);
 		//hide Player
 		//player.enabled = false;
 		Player.GetComponent<Renderer> ().enabled = false;
