@@ -19,7 +19,7 @@ public class Loops : MonoBehaviour {
 		print("CountDown " + Num);
 		Num --;
 	}
-	while(Cat >= 0){
+	while(Cat <= 3){
 		print("There's cat " + Cat);
 		Cat ++;
 	}
