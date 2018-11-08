@@ -5,12 +5,12 @@ using UnityEngine;
 public class LoopsBrother : MonoBehaviour {
 
 	// Use this for initialization
-	void Start () {
-		for(int i=0; 1 <= 100; i++){
-			print(i + )
-		}
+	// void Start () {
+	// 	for(int i=0; 1 <= 100; i++){
+	// 		print(i + );
+	// 	}
 		
-	}
+	// }
 	
 
 
