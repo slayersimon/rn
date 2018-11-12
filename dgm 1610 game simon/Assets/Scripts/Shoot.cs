@@ -9,7 +9,7 @@ public class Shoot : MonoBehaviour {
 	public GameObject Projectile;
 
 	void Start(){
-		Projectile = GameObject.Find("Projectile");
+	Projectile = Resources.Load("prefab/Projectile") as GameObject;
 
 	}
 	//update is called once per frame
