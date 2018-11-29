@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Enoms : MonoBehaviour {
 
-	enum Inventory {cheese = 1, meat = 23, sword = 10, shield, map, backapck, bow, arrows};
+	enum Inventory {cheese, meat, sword, shield, map, backapck, bow, arrows};
 
 	// Use this for initialization
 	void Start () {
