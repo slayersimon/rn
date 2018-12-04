@@ -52,11 +52,12 @@ public class CharacterMove : MonoBehaviour {
 		if(Input.GetKey (KeyCode.D)){
 			//GetComponent<Rigidbody2D>().velocity = new Vector2(MoveSpeed, GetComponent<Rigidbody2D>().velocity.y);
 			MoveVelocity = MoveSpeed; 
+			// animator.Setfloat("Speed", Mathf.Abs(moveVelocity));
 		}
 		if(Input.GetKey (KeyCode.A)){
 			//GetComponent<Rigidbody2D>().velocity = new Vector2(-MoveSpeed, GetComponent<Rigidbody2D>().velocity.y);
 			MoveVelocity = -MoveSpeed; 
-			
+				// animator.Setfloat("Speed", Mathf.Abs(moveVelocity));
 		}
 		GetComponent<Rigidbody2D>().velocity = new Vector2(MoveVelocity, GetComponent<Rigidbody2D>().velocity.y);
 
